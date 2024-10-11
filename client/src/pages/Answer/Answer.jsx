@@ -60,6 +60,7 @@ function Answer() {
     e.preventDefault();
     setIsLoading(true);
     if (!answer) {
+      setIsLoading(false);
       setErrorMessage("Please provide an answer.");
       return;
     }
