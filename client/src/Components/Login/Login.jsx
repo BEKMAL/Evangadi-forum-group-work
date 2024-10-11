@@ -60,7 +60,7 @@ function SignIn({ visible }) {
       <p>
         Don't have an account?
         <Link
-          class="lnk-toggler"
+          className="lnk-toggler"
           data-panel="panel-signup"
           onClick={() => setShow(true)}
         >
@@ -97,8 +97,8 @@ function SignIn({ visible }) {
           </div>
         </div>
 
-        <p class="forgotPwd">
-          <a class="lnk-toggler" data-panel="panel-forgot" href="#">
+        <p className="forgotPwd">
+          <a className="lnk-toggler" data-panel="panel-forgot" href="#">
             Forgot password ?
           </a>
         </p>
