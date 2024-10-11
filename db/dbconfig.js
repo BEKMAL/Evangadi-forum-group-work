@@ -11,12 +11,4 @@ const dbConnection = mysql2.createPool({
 });
 
 // Connect to the database
-dbConnection.getConnection((err) => {
-  if (err) {
-    console.error("Database connection failed:", err.message);
-    return;
-  } else {
-    console.log("Connected to the Hostinger database successfully!");
-  }
-});
 module.exports = dbConnection.promise();
