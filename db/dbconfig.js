@@ -10,5 +10,4 @@ const dbConnection = mysql2.createPool({
   database: process.env.DB_NAME,
 });
 
-// Connect to the database
 module.exports = dbConnection.promise();
