@@ -92,7 +92,7 @@ function SignIn({ visible }) {
               onClick={togglePasswordVisibility}
               className={classes.toggle_password}
             >
-              {showPassword ? <BiShow /> : <BiHide />}
+              {showPassword ? <BiShow size={20}  color="black" /> : <BiHide size={20}  color="black" />}
             </button>
           </div>
         </div>

@@ -67,7 +67,7 @@ async function login(req, res) {
    
    if (!isMatch)
    {
-    return res.status(StatusCodes.BAD_REQUEST).json({message:"invaild credential"})
+    return res.status(StatusCodes.BAD_REQUEST).json({message:"Invaild credential"})
    }
 
    //if usename and password correct send token
