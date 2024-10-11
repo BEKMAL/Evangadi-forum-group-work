@@ -123,7 +123,7 @@ const SignUp = ({ visible }) => {
             onClick={togglePasswordVisibility}
             className={Classes.toggle_password}
           >
-            {showPassword ? <BiShow /> : <BiHide />}
+            {showPassword ? <BiShow  size={20}  color="black"/> : < BiHide size={20} color="black"/>}
           </button>
         </div>
         <div className={Classes.paragrap}>
